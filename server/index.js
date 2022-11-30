@@ -1,6 +1,7 @@
 //IMPORTS FROM PACKAGES
 const express = require("express");
 const mongoose = require("mongoose");
+const adminRouter = require("./routes/admin.js");
 
 
 // IMPORTS FROM OTHER FILES
@@ -16,6 +17,7 @@ const DB = "mongodb+srv://Kerim:Kerim123kerim123@cluster0.0rchcef.mongodb.net/?r
 //MIDDLEWARE
 app.use(express.json());
 app.use(authRouter);
+app.use(adminRouter);
 
 //CONNECTIONS
 

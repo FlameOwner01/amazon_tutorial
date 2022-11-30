@@ -37,26 +37,10 @@ const userSchema = new mongoose.Schema({
     address: {
         type: String,
         default: '',
-        validate: {
-            validator: (value) =>{
-                let lenght = value.lenght;
-                if (lenght< 6)  return;
-              
-            },
-            message: 'Please enter a longer password',
-        },
     },
     type: {
         type: String,
         default: "user",
-        validate: {
-            validator: (value) =>{
-                let lenght = value.lenght;
-                if (lenght< 6)  return;
-              
-            },
-            message: 'Please enter a longer password',
-        },
     },
     
     //cart
