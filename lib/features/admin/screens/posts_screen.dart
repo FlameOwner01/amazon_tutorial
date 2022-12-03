@@ -1,4 +1,4 @@
-import 'package:amazaon_tutorial/common/widgets/lodaer.dart';
+import 'package:amazaon_tutorial/common/widgets/loader.dart';
 import 'package:amazaon_tutorial/features/account/widgets/single_product.dart';
 import 'package:amazaon_tutorial/features/admin/screens/add_product_screen.dart';
 import 'package:amazaon_tutorial/features/admin/services/admin_services.dart';

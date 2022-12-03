@@ -6,6 +6,8 @@ const adminRouter = require("./routes/admin.js");
 
 // IMPORTS FROM OTHER FILES
 const authRouter = require("./routes/auth.js");
+const productRouter = require("./routes/product.js");
+const userRouter = require("./routes/user.js");
 
 
 //INIT
@@ -18,6 +20,8 @@ const DB = "mongodb+srv://Kerim:Kerim123kerim123@cluster0.0rchcef.mongodb.net/?r
 app.use(express.json());
 app.use(authRouter);
 app.use(adminRouter);
+app.use(productRouter);
+app.use(userRouter);
 
 //CONNECTIONS
 

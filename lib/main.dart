@@ -3,7 +3,6 @@ import 'package:amazaon_tutorial/features/admin/screens/admin_screen.dart';
 import 'package:amazaon_tutorial/features/auth/screens/auth_screen.dart';
 import 'package:amazaon_tutorial/features/auth/services/auth_services.dart';
 import 'package:amazaon_tutorial/features/auth/widgets/bottom_bar.dart';
-import 'package:amazaon_tutorial/models/user.dart';
 import 'package:amazaon_tutorial/providers/user_provider.dart';
 import 'package:amazaon_tutorial/router.dart';
 import 'package:flutter/material.dart';
